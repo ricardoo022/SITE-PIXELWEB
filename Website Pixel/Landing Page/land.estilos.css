@@ -125,3 +125,96 @@ body {
     height: auto;
     z-index: 10;
 }
+
+/*Footer*/
+
+
+#footer {
+    background-image: url('../Fotos/Imagem-footer2.svg');
+    height: 300px;
+    background-size: cover;
+    padding-top: 4%;
+    padding-bottom: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0; /* Remove o espaço em branco abaixo do footer */
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribui logo e logos nas extremidades */
+    align-items: center;
+    width: 100%;
+}
+
+.logotipo-footer {
+    padding-left: 6%;
+    margin-bottom: 0; /* Ajusta a margem inferior para remover espaços */
+    position: relative; /* Permite usar top e bottom */
+    top: -30px; /* Ajusta a posição para cima */
+    /* Para subir ainda mais, aumente o valor negativo */
+}
+
+.logos {
+    padding: 0;
+    margin-top: 4%; /* Remove o espaço em branco adicional acima das logos */
+}
+
+.logo-rs {
+    padding-left: 5%;
+}
+
+.whatsapp {
+    padding-right: 15%;
+}
+
+.logos img {
+    height: 60px;
+    width: auto;
+}
+
+/* Centraliza e alinha verticalmente a política de privacidade */
+.privacy-policy-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+    padding-right: 6%;
+    font-size: 102.6999%;
+}
+
+.privacy-policy {
+    color: #c2e0ff;
+    text-decoration: none;
+    
+    
+}
+
+.privacy-policy:hover {
+    text-decoration: underline;
+}
+
+/* Estilo responsivo para telas menores */
+@media (max-width: 600px) {
+    footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+    footer .col-md-4 {
+        text-align: center;
+    }
+    .logos {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .footer-text {
+        margin-top: 15px;
+    }
+}
