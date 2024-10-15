@@ -194,17 +194,6 @@ body {
     padding-bottom: 10px;
 }
 
-.carousel-item {
-    margin-top: 30%;
-    height: 500px; /* Ajuste conforme a altura desejada */
-}
-
-.carousel-item img {
-    height: 100%;
-    object-fit: cover;
-    padding: auto;
-}
-
 
 
 
