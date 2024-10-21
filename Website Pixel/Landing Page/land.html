@@ -38,11 +38,19 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link header-text" href="#quem-somos">QUEM SOMOS</a></li>
-                        <li class="nav-item"><a class="nav-link header-text" href="#parceiros">PARCEIROS</a></li>
-                        <li class="nav-item"><a class="nav-link header-text" href="#reuniao">AGENDAR REUNIÃO</a></li>
-                        <li class="nav-item"><a class="nav-link header-text" href="#faqs">FAQ's</a></li>
+                        <li class="nav-item"><a class="nav-link header-text" href="#quem-somos" id="quem-somos-link">QUEM SOMOS</a></li>
+                        <li class="nav-item"><a class="nav-link header-text" href="#parceiros" id="parceiros-link">PARCEIROS</a></li>
+                        <li class="nav-item"><a class="nav-link header-text" href="#reuniao" id="reuniao-link">AGENDAR REUNIÃO</a></li>
+                        <li class="nav-item"><a class="nav-link header-text" href="#faqs" id="faqs-link">FAQ's</a></li>
                     </ul>
+                </div>
+                <div class="ml-auto">
+                    <a href="#" id="ptBtn" class="language-icon" title="Português">
+                        <img src="../Fotos/portugal.png" alt="Português" height="30">
+                    </a>
+                    <a href="#" id="enBtn" class="language-icon" title="English">
+                        <img src="../Fotos/reino-unido.png" alt="English" height="30">
+                    </a>
                 </div>
             </div>
         </nav>            
@@ -53,7 +61,7 @@
     <section id="banner-image" class="text-center">
         <div id="div-logo">
             <img id="small-image" src="../Fotos/imagem-acima-banner.png" alt="Imagem Pequena no Canto">
-            <div class="small-text">
+            <div class="small-text" id="slogan">
                 Levamos a sua marca ao <br>
                 próximo nível digital
             </div>
@@ -67,13 +75,13 @@
     <section id="quem-somos">
         
         <div class="heading-topic-quemsomos">
-            <h1>QUEM SOMOS</h1>
+            <h1 id="quem-somos-titulo">QUEM SOMOS</h1>
         </div>
 
         <div class="company-story">
             <div class="text-section">
-                <h1>A Pixel Web</h1>
-                <p>A Pixel Web nasceu do sonho de dois jovens apaixonados por tecnologia e inovação. Enquanto estudavam Engenharia Informática, [Nomes dos Fundadores] perceberam que o mundo digital estava em constante evolução e que muitas empresas precisavam de ajuda para acompanhar esse ritmo. Combinando o conhecimento adquirido nos estudos com a vontade de criar algo próprio, decidiram lançar a Pixel Web.</p>
+                <h1 id="historia-titulo">História da Empresa</h1>
+                <p id="historia-texto">A Pixel Web nasceu do sonho de dois jovens apaixonados por tecnologia e inovação. Enquanto estudavam Engenharia Informática,João Canais e Ricardo Domingues perceberam que o mundo digital estava em constante evolução e que muitas empresas precisavam de ajuda para acompanhar esse ritmo. Combinando o conhecimento adquirido nos estudos com a vontade de criar algo próprio, decidiram lançar a Pixel Web.</p>
             </div>
             
             <div class="image-section">
@@ -88,18 +96,18 @@
             <div class="product-grid">
                 <div class="product-card">
                     <img src="../Fotos/solucoes.png" alt="Product 1" class="product-image">
-                    <h2>Soluções personalizadas e Funcionais</h2>
-                    <p>Dsenvolvemos um site à sua medida, funcional e visualmente atraente.</p>
+                    <h2 id="solucoes-titulo">Soluções personalizadas e Funcionais</h2>
+                    <p id="solucoes-texto">Desenvolvemos um site à sua medida, funcional e visualmente atraente.</p>
                 </div>
                 <div class="product-card">
                     <img src="../Fotos/suporte.png" alt="Product 2" class="product-image">
-                    <h2>Suporte Técnico e Manutenção</h2>
-                    <p>Oferecemos um suporte pós-lançamento ajudando com problemas técnicos, atualizações e correções. </p>
+                    <h2 id="suporte-titulo">Suporte Técnico e Manutenção</h2>
+                    <p id="suporte-texto">Oferecemos um suporte pós-lançamento ajudando com problemas técnicos, atualizações e correções. Garantimos que o site esteja atualizado.</p>
                 </div>
                 <div class="product-card">
                     <img src="../Fotos/acesibilidade.png" alt="Product 3" class="product-image">
-                    <h2>Acessibilidade</h2>
-                    <p>Desenvolvemos um site otimizado para os motores de busca para melhorar a visibilidade e o tráfego organico.</p>
+                    <h2 id="acesibilidade-titulo">Acessibilidade</h2>
+                    <p id="acesibilidade-texto">Desenvolvemos um site otimizado para os motores de busca para melhorar a visibilidade e o tráfego organico.</p>
                 </div>
             </div>
         </div>
@@ -121,21 +129,21 @@
 
     <section id="reuniao">
         <div class="heading-topic-reuniao">
-            <h1>AGENDAR REUNIÃO</h1>
+            <h1 id="agendar-titulo">AGENDAR REUNIÃO</h1>
         </div>
     
         <div class="container_forms">
             <div class="contact-form">
                 <h2 id="contact"></h2>
                 <p class="text-reuniao">
-                    <span class="texto">Pronto para fazer o seu negócio crescer?<br></span>
-                    <span class="texto2">Preencha o formulário e deixe-nos ajudá-lo a destacar-se no universo digital! Na nossa agência, criamos estratégias à medida para aumentar a sua visibilidade online, atrair clientes qualificados e impulsionar as suas vendas. Comece hoje o seu caminho para o sucesso digital!<br></span>
-                    <strong>Fale connosco e dê o próximo passo rumo ao sucesso online!</strong>
+                    <span id="texto">Pronto para fazer o seu negócio crescer?<br></span>
+                    <span id="texto2">Preencha o formulário e deixe-nos ajudá-lo a destacar-se no universo digital! Na nossa agência, criamos estratégias à medida para aumentar a sua visibilidade online, atrair clientes qualificados e impulsionar as suas vendas. Comece hoje o seu caminho para o sucesso digital!<br></span>
+                    <strong id="texto-strong">Fale connosco e dê o próximo passo rumo ao sucesso online!</strong>
                 </p>
     
                 <form class="mt-4" action="https://formsubmit.co/pixel.webdesign.company@gmail.com" method="post">
                     <div class="form-group">
-                        <input type="text" placeholder="Nome" id="contact_form_placeholder_name" name="name" required>
+                        <input type="text" placeholder="Nome" id="nome_form_placeholder_name" required>
                     </div>
     
                     <div class="form-group input-group">
@@ -160,60 +168,62 @@
   
 
     <!--FAQS-->
-    <div class="heading-topic-faqs">
-        <h1>FAQ's</h1>
-    </div>
-
-    <div class="faq-container"id="faqs">
-        
-        <div class="faq">
-            <div class="faq-question">
-                <h3>Quais serviços a Pixel Web oferece?</h3>
-                <span class="faq-toggle">+</span>
-            </div>
-            <div class="faq-answer">
-                <p>Oferecemos uma gama completa de serviços, incluindo:
-
-                    Criação e desenvolvimento de websites;
-                    Design responsivo (compatível com dispositivos móveis);
-                    Otimização para motores de busca (SEO);
-                    Manutenção e atualizações de websites;
-                    Hospedagem e suporte técnico.</p>
-            </div>
-        </div>
-
-        <div class="faq">
-            <div class="faq-question">
-                <h3>Quanto tempo demora a desenvolver um website?</h3>
-                <span class="faq-toggle">+</span>
-            </div>
-            <div class="faq-answer">
-                <p>O tempo de desenvolvimento depende da complexidade do projeto e dos requisitos específicos. Um website simples pode demorar cerca de 2 a 4 semanas, enquanto projetos mais complexos podem levar 1 a 2 meses. A nossa equipa trabalha de perto com cada cliente para definir prazos realistas e garantir a entrega dentro do prazo acordado.</p>
-            </div>
+    <section id="faqs"> 
+        <div class="heading-topic-faqs">
+            <h1>FAQ's</h1>
         </div>
     
-        <div class="faq">
-            <div class="faq-question">
-                <h3>O website será optimizado para dispositivos móveis?</h3>
-                <span class="faq-toggle">+</span>
-            </div>
-            <div class="faq-answer">
-                <p>Sim, todos os websites que desenvolvemos são 100% responsivos e adaptados para funcionar em todos os dispositivos, desde computadores a smartphones e tablets. Garantimos que o seu website oferece uma excelente experiência de utilização em qualquer plataforma.</p>
-            </div>
-        </div>
+        <div class="faq-container"id="faqs">
+            
+            <div class="faq">
+                <div class="faq-question">
+                    <h3 id="faq1">Quais serviços a Pixel Web oferece?</h3>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p id="faq1-resposta">Oferecemos uma gama completa de serviços, incluindo:
     
-        <div class="faq">
-            <div class="faq-question">
-                <h3>Como posso acompanhar o progresso do meu projeto?</h3>
-                <span class="faq-toggle">+</span>
+                        Criação e desenvolvimento de websites;
+                        Design responsivo (compatível com dispositivos móveis);
+                        Otimização para motores de busca (SEO);
+                        Manutenção e atualizações de websites;
+                        Hospedagem e suporte técnico.</p>
+                </div>
             </div>
-            <div class="faq-answer">
-                <p>Durante todo o desenvolvimento, mantemos você atualizado através de reuniões regulares e compartilhamento de previews. Dessa forma, você pode acompanhar o progresso e dar seu feedback a qualquer momento.</p>
+    
+            <div class="faq">
+                <div class="faq-question">
+                    <h3 id="faq2">Quanto tempo demora a desenvolver um website?</h3>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p id="faq2-resposta">O tempo de desenvolvimento depende da complexidade do projeto e dos requisitos específicos. Um website simples pode demorar cerca de 2 a 4 semanas, enquanto projetos mais complexos podem levar 1 a 2 meses. A nossa equipa trabalha de perto com cada cliente para definir prazos realistas e garantir a entrega dentro do prazo acordado.</p>
+                </div>
             </div>
-        </div>
-
         
-    </div>
+            <div class="faq">
+                <div class="faq-question">
+                    <h3 id="faq3">O website será optimizado para dispositivos móveis?</h3>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p id="faq3-resposta">Sim, todos os websites que desenvolvemos são 100% responsivos e adaptados para funcionar em todos os dispositivos, desde computadores a smartphones e tablets. Garantimos que o seu website oferece uma excelente experiência de utilização em qualquer plataforma.</p>
+                </div>
+            </div>
+        
+            <div class="faq">
+                <div class="faq-question">
+                    <h3 id="faq4">Como posso acompanhar o progresso do meu projeto?</h3>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p id="faq4-resposta">Durante todo o desenvolvimento, mantemos você atualizado através de reuniões regulares e compartilhamento de previews. Dessa forma, você pode acompanhar o progresso e dar seu feedback a qualquer momento.</p>
+                </div>
+            </div>
+    
+            
+        </div>
+    </section>
 
     
 
@@ -229,7 +239,7 @@
 
             
             <div class="privacy-policy-container">
-                <a href="#" class="privacy-policy">Política de Privacidade</a>
+                <a href="#" class="privacy-policy" id="politica">Política de Privacidade</a>
             </div>
 
             <ul class="logos nav col-md-3 justify-content-end list-unstyled d-flex align-items-center">
