@@ -38,17 +38,17 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link header-text" href="#quem-somos" id="quem-somos-link">QUEM SOMOS</a></li>
-                        <li class="nav-item"><a class="nav-link header-text" href="#parceiros" id="parceiros-link">PARCEIROS</a></li>
-                        <li class="nav-item"><a class="nav-link header-text" href="#reuniao" id="reuniao-link">AGENDAR REUNIÃO</a></li>
-                        <li class="nav-item"><a class="nav-link header-text" href="#faqs" id="faqs-link">FAQ's</a></li>
+                        <li class="nav-item"><a class="nav-link header-text" href="#quem-somos" id="quem_somos">QUEM SOMOS</a></li>
+                        <li class="nav-item"><a class="nav-link header-text" href="#parceiros-section" id="parceiros">PARCEIROS</a></li>
+                        <li class="nav-item"><a class="nav-link header-text" href="#reuniao2" id="reuniao">AGENDAR REUNIÃO</a></li>
+                        <li class="nav-item"><a class="nav-link header-text" href="#faqs2" id="faqs">FAQ's</a></li>
                     </ul>
                 </div>
                 <div class="ml-auto">
-                    <a href="#" id="ptBtn" class="language-icon" title="Português">
+                    <a href="#"  class="language-icon" title="Português" onclick="changeLanguage('pt')">
                         <img src="../Fotos/portugal.png" alt="Português" height="30">
                     </a>
-                    <a href="#" id="enBtn" class="language-icon" title="English">
+                    <a href="#" class="language-icon" title="English" onclick="changeLanguage('en')">
                         <img src="../Fotos/reino-unido.png" alt="English" height="30">
                     </a>
                 </div>
@@ -75,13 +75,13 @@
     <section id="quem-somos">
         
         <div class="heading-topic-quemsomos">
-            <h1 id="quem-somos-titulo">QUEM SOMOS</h1>
+            <h1 id="quem_somos_titulo">QUEM SOMOS</h1>
         </div>
 
         <div class="company-story">
             <div class="text-section">
-                <h1 id="historia-titulo">A Pixel Web</h1>
-                <p id="historia-texto">A Pixel Web nasceu do sonho de dois jovens apaixonados por tecnologia e inovação. Enquanto estudavam Engenharia Informática, Ricardo Domingues e João Canais perceberam que o mundo digital estava em constante evolução e que muitas empresas precisavam de ajuda para acompanhar esse ritmo. Combinando o conhecimento adquirido nos estudos com a vontade de criarem algo próprio, decidiram lançar a Pixel Web.</p>
+                <h1 id="historia_titulo">A Pixel Web</h1>
+                <p id="historia_texto">A Pixel Web nasceu do sonho de dois jovens apaixonados por tecnologia e inovação. Enquanto estudavam Engenharia Informática, Ricardo Domingues e João Canais perceberam que o mundo digital estava em constante evolução e que muitas empresas precisavam de ajuda para acompanhar esse ritmo. Combinando o conhecimento adquirido nos estudos com a vontade de criarem algo próprio, decidiram lançar a Pixel Web.</p>
             </p>
             </div>
             
@@ -97,40 +97,41 @@
             <div class="product-grid">
                 <div class="product-card">
                     <img src="../Fotos/solucoes.png" alt="Product 1" class="product-image">
-                    <h2 id="solucoes-titulo">Soluções personalizadas e Funcionais</h2>
-                    <p id="solucoes-texto">Desenvolvemos um site à sua medida, funcional e visualmente atraente.</p>
+                    <h2 id="solucoes_titulo">Soluções personalizadas e Funcionais</h2>
+                    <p id="solucoes_texto">Desenvolvemos um site à sua medida, funcional e visualmente atraente.</p>
                 </div>
                 <div class="product-card">
                     <img src="../Fotos/suporte.png" alt="Product 2" class="product-image">
-                    <h2 id="suporte-titulo">Suporte Técnico e Manutenção</h2>
-                    <p id="suporte-texto">Oferecemos um suporte pós-lançamento ajudando com problemas técnicos, atualizações e correções.</p>
+                    <h2 id="suporte_titulo">Suporte Técnico e Manutenção</h2>
+                    <p id="suporte_texto">Oferecemos um suporte pós-lançamento ajudando com problemas técnicos, atualizações e correções.</p>
                 </div>
                 <div class="product-card">
                     <img src="../Fotos/acesibilidade.png" alt="Product 3" class="product-image">
-                    <h2 id="acesibilidade-titulo">Acessibilidade</h2>
-                    <p id="acesibilidade-texto">Desenvolvemos um site optimizado para motores de busca, com o objetivo de aumentar a visibilidade online e impulsionar o tráfego orgânico.</p>
+                    <h2 id="acesibilidade_titulo">Acessibilidade</h2>
+                    <p id="acesibilidade_texto">Desenvolvemos um site optimizado para motores de busca, com o objetivo de aumentar a visibilidade online e impulsionar o tráfego orgânico.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!--Parceiros-->
-
-    <div class="partners-container " id="parceiros">
-        <div class="heading-topic-parceiros">
-            <h1>PARCEIROS</h1>
+    <section id="parceiros-section">
+        <div class="partners-container " id="parceiros">
+            <div class="heading-topic-parceiros">
+                <h1 id="parceiros_titulo">PARCEIROS</h1>
+            </div>
+            
+            <div class="partner">
+                <a href="https://www.all4gest.pt" target="_blank">
+                    <img src="../Fotos/all4guest.png" alt="Parceiro Exemplo" class="partner-logo">
+                </a>
+            </div>
         </div>
-        
-        <div class="partner">
-            <a href="https://www.all4gest.pt" target="_blank">
-                <img src="../Fotos/all4guest.png" alt="Parceiro Exemplo" class="partner-logo">
-            </a>
-        </div>
-    </div>
-
-    <section id="reuniao">
+    </section>
+    
+    <section id="reuniao2">
         <div class="heading-topic-reuniao">
-            <h1 id="agendar-titulo">AGENDAR REUNIÃO</h1>
+            <h1 id="agendar_titulo">AGENDAR REUNIÃO</h1>
         </div>
     
         <div class="container_forms">
@@ -139,7 +140,7 @@
                 <p class="text-reuniao">
                     <span id="texto">Pronto para fazer o seu negócio crescer?<br></span>
                     <span id="texto2">Preencha o formulário e deixe-nos ajudá-lo a destacar-se no mundo digital! Na nossa agência, especializamo-nos na criação de sites que aumentam a sua visibilidade online e atraem clientes qualificados. Dê o primeiro passo para o sucesso digital connosco!<br></span>
-                    <strong id="texto-strong">Contacte-nos e comece a sua jornada para um site de excelência!</strong>
+                    <strong id="texto_strong">Contacte-nos e comece a sua jornada para um site de excelência!</strong>
                 </p>
     
                 <form class="mt-4" action="https://formsubmit.co/pixel.webdesign.company@gmail.com" method="post">
@@ -149,7 +150,7 @@
     
                     <div class="form-group input-group">
                         <input type="email" placeholder="Email" name="email" required>
-                        <input type="text" placeholder="Telefone" name="phone" required>
+                        <input type="text" placeholder="Telefone" name="phone"  id="telefone_form_placeholder_name" required>
                     </div>
     
                     <div class="form-group">
@@ -169,7 +170,7 @@
   
 
     <!--FAQS-->
-    <section id="faqs"> 
+    <section id="faqs2"> 
         <div class="heading-topic-faqs">
             <h1>FAQ's</h1>
         </div>
@@ -182,8 +183,8 @@
                     <span class="faq-toggle">+</span>
                 </div>
                 <div class="faq-answer">
-                    <p id="faq1-resposta">Oferecemos uma gama completa de serviços, incluindo:
-                    <p>
+                    <p id="faq1_resposta">Oferecemos uma gama completa de serviços, incluindo:
+                    <p id="faq1_resposta2">
                     Criação e desenvolvimento de websites;
                     Design flexível;
                     Optimização para motores de busca;
@@ -198,7 +199,7 @@
                     <span class="faq-toggle">+</span>
                 </div>
                 <div class="faq-answer">
-                    <p id="faq2-resposta">O tempo de desenvolvimento depende da complexidade do projeto e dos requisitos específicos. Um website simples pode demorar cerca de 2 a 4 semanas, enquanto projetos mais complexos podem levar 1 a 2 meses. A nossa equipa trabalha de perto com cada cliente para definir prazos realistas e garantir a entrega dentro do prazo acordado.</p>
+                    <p id="faq2_resposta">O tempo de desenvolvimento depende da complexidade do projeto e dos requisitos específicos. Um website simples pode demorar cerca de 2 a 4 semanas, enquanto projetos mais complexos podem levar 1 a 2 meses. A nossa equipa trabalha de perto com cada cliente para definir prazos realistas e garantir a entrega dentro do prazo acordado.</p>
                 </div>
             </div>
         
@@ -208,7 +209,7 @@
                     <span class="faq-toggle">+</span>
                 </div>
                 <div class="faq-answer">
-                    <p id="faq3-resposta">Sim, todos os websites que desenvolvemos são 100% adaptados para funcionar em todos os dispositivos, desde computadores a smartphones e tablets. Garantimos que o seu website oferece uma excelente experiência de utilização em qualquer plataforma.</p>
+                    <p id="faq3_resposta">Sim, todos os websites que desenvolvemos são 100% adaptados para funcionar em todos os dispositivos, desde computadores a smartphones e tablets. Garantimos que o seu website oferece uma excelente experiência de utilização em qualquer plataforma.</p>
                 </div>
             </div>
         
@@ -218,7 +219,7 @@
                     <span class="faq-toggle">+</span>
                 </div>
                 <div class="faq-answer">
-                    <p id="faq4-resposta">Durante todo o desenvolvimento, mantemos-lo atualizado através de reuniões regulares e compartilhamento de "previews". Dessa forma, você pode acompanhar o progresso e dar seu feedback a qualquer momento.</p>
+                    <p id="faq4_resposta">Durante todo o desenvolvimento, mantemos-lo atualizado através de reuniões regulares e compartilhamento de "previews". Dessa forma, você pode acompanhar o progresso e dar seu feedback a qualquer momento.</p>
                 </div>
             </div>
     
@@ -240,7 +241,7 @@
 
             
             <div class="privacy-policy-container">
-                <a href="../Politica/politica.html" class="privacy-policy">Política de Privacidade</a>
+                <a href="../Politica/politica.html" class="privacy-policy"  id="politica">Política de Privacidade</a>
             </div>
 
             <ul class="logos nav col-md-3 justify-content-end list-unstyled d-flex align-items-center">
@@ -264,7 +265,7 @@
     </section>
 
 
-
+    <script src="script.js"></script>
 
     <script>
     const faqs = document.querySelectorAll('.faq');
@@ -297,6 +298,8 @@
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous">
     </script>
+
+   
         
 </body>
 </html>   

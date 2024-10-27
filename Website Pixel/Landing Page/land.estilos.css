@@ -1,6 +1,6 @@
 #quem-somos::before,
 #parceiros::before,
-#reuniao::before {
+#reuniao2::before {
     content: "";
     display: block;
     height: 150px; /* Altura do deslocamento */
@@ -8,7 +8,7 @@
     visibility: hidden; /* Mantém o elemento invisível */
 }
 
-#faqs::before {
+#faqs2::before {
     content: "";
     display: block;
     height: 300px; /* Altura do deslocamento */
@@ -637,7 +637,7 @@ textarea {
     color: #2469f1;
     border: 2px solid #2469f1; /* Borda azul ao passar o cursor */
 }
-#reuniao h2 {
+#reuniao2 h2 {
     margin-top: 50px;
     position: relative;
     right: -62.5%;
@@ -649,7 +649,7 @@ textarea {
     letter-spacing: 2px;
 }
 
-#reuniao p {
+#reuniao2 p {
     position: relative;
     left: 75%;
     top: -5%;
@@ -688,7 +688,7 @@ textarea {
         padding-bottom: 205px; /* Espaçamento inferior */
     }
 
-    #reuniao p {
+    #reuniao2 p {
         font-size: 21px;
         line-height: 1.5;
         color: #333;
