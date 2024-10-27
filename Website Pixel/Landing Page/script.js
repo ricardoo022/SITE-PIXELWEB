@@ -17,7 +17,7 @@ const translations = {
         'slogan':'Levamos a sua marca ao <br> próximo nível digital',
         'quem_somos_titulo': 'QUEM SOMOS',
         'historia_titulo': 'História da Empresa',
-        'historia_texto': 'A Pixel Web nasceu do sonho de dois jovens apaixonados por tecnologia e inovação. Enquanto estudavam Engenharia Informática,João Canais e Ricardo Domingues perceberam que o mundo digital estava em constante evolução e que muitas empresas precisavam de ajuda para acompanhar esse ritmo. Combinando o conhecimento adquirido nos estudos com a vontade de criar algo próprio, decidiram lançar a Pixel Web.',
+        'historia_texto': 'A Pixel Web nasceu do sonho de dois jovens apaixonados por tecnologia e inovação. Enquanto estudavam Engenharia Informática, João Canais e Ricardo Domingues perceberam que o mundo digital estava em constante evolução e que muitas empresas precisavam de ajuda para acompanhar esse ritmo. Combinando o conhecimento adquirido nos estudos com a vontade de criar algo próprio, decidiram lançar a Pixel Web.',
         'solucoes_titulo"':'Soluções personalizadas e Funcionais',
         'solucoes_texto':'Desenvolvemos um site à sua medida, funcional e visualmente atraente.',
         'suporte_titulo':'Suporte Técnico e Manutenção',
