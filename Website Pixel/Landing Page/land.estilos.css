@@ -48,7 +48,7 @@ body {
 
 .navbar-nav {
     flex-grow: 1;
-    padding-left: 10%;
+    padding-left: 20%;
 }
 
 .navbar-brand, .nav-link {
@@ -513,15 +513,8 @@ body {
 /*Agendar Reuniao*/
 
 /* Estilo específico para o span */
-.text-reuniao .texto {
-    color: #2469f1;
-    font-size: 32px;
-    font-weight: 530;
-    line-height: 0.5;
-}
-
 #texto {
-    color: #2469f1;
+    color: #2469f1; 
     font-size: 32px;
     font-weight: 530;
     line-height: 0.5;
@@ -554,9 +547,6 @@ body {
     .heading-topic-reuniao h1{
         font-size: 210%;
         width: 80%;
-    }
-    #agendar_titulo{
-        margin-bottom: 15%;
     }
 }
 

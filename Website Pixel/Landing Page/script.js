@@ -17,8 +17,8 @@ const translations = {
         'slogan':'Levamos a sua marca ao <br> próximo nível digital',
         'quem_somos_titulo': 'QUEM SOMOS',
         'historia_titulo': 'História da Empresa',
-        'historia_texto': 'A Pixel Web nasceu do sonho de dois jovens apaixonados por tecnologia e inovação. Enquanto estudavam Engenharia Informática, João Canais e Ricardo Domingues perceberam que o mundo digital estava em constante evolução e que muitas empresas precisavam de ajuda para acompanhar esse ritmo. Combinando o conhecimento adquirido nos estudos com a vontade de criar algo próprio, decidiram lançar a Pixel Web.',
-        'solucoes_titulo"':'Soluções personalizadas e Funcionais',
+        'historia_texto': 'A Pixel Web nasceu do sonho de dois jovens apaixonados por tecnologia e inovação. Enquanto estudavam Engenharia Informática,João Canais e Ricardo Domingues perceberam que o mundo digital estava em constante evolução e que muitas empresas precisavam de ajuda para acompanhar esse ritmo. Combinando o conhecimento adquirido nos estudos com a vontade de criar algo próprio, decidiram lançar a Pixel Web.',
+        'solucoesTitle':'Soluções personalizadas e Funcionais',
         'solucoes_texto':'Desenvolvemos um site à sua medida, funcional e visualmente atraente.',
         'suporte_titulo':'Suporte Técnico e Manutenção',
         'suporte_texto':'Oferecemos um suporte pós-lançamento ajudando com problemas técnicos, atualizações e correções. Garantimos que o site esteja atualizado.',
@@ -54,7 +54,7 @@ const translations = {
         'quem_somos_titulo': 'ABOUT US',
         'historia_titulo': 'Company History',
         'historia_texto': 'Pixel Web was born from the dream of two young people passionate about technology and innovation. While studying Computer Engineering, João Canals and Ricardo Domingues realized that the digital world was constantly evolving and that many companies needed help to keep up with this pace. Combining the knowledge acquired in their studies with the desire to create something of their own, they decided to launch Pixel Web.',
-        'solucoes_titulo"':'Personalized and functional solutions',
+        'solucoesTitle"':'Personalized and functional solutions',
         'solucoes_texto':'We developed a site to its measurement, functional and visually attractive.',
         'suporte_titulo':'Technical Support and Maintenance',
         'suporte_texto':'We offer post-release support helping with technical problems, updates and corrections. We guarantee that the site is up to date.',
@@ -94,7 +94,7 @@ function setLanguage(lang) {
     document.getElementById('quem_somos_titulo').textContent = translations[lang].quem_somos_titulo;
     document.getElementById('historia_titulo').textContent = translations[lang].historia_titulo;
     document.getElementById('historia_texto').textContent = translations[lang].historia_texto;
-    document.getElementById('solucoes_titulo').textContent = translations[lang].solucoes_titulo;
+    document.getElementById('solucoesTitle').textContent = translations[lang].solucoesTitle;
     document.getElementById('solucoes_texto').textContent = translations[lang].solucoes_texto;
     document.getElementById('suporte_titulo').textContent = translations[lang].suporte_titulo;
     document.getElementById('suporte_texto').textContent = translations[lang].suporte_texto ;
