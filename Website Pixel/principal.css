@@ -48,7 +48,7 @@ body {
 
 .navbar-nav {
     flex-grow: 1;
-    padding-left: 20%;
+    padding-left: 10%;
 }
 
 .navbar-brand, .nav-link {
@@ -818,7 +818,7 @@ textarea {
 
 
 #footer {
-    background-image: url('../Fotos/Imagem-footer2.svg');
+    background-image: url('./Fotos/Imagem-footer2.svg');
     background-size: cover;
     padding-bottom: 0;
     color: white;
