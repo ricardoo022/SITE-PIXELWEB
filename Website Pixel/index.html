@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Web</title>
+
+    <link rel="icon" href="./Fotos/mini-logo2.png" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./principal.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    
+    <style>
+        
+    </style>
+
+</head>
+<body>
+    <!--Header-->
+
+    <section id="header">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand logo" href="">
+                    <!-- Adicionei o ID ao logotipo -->
+                    <img id="logo-img" src="./Fotos/logo5.png" alt="Logotipo" height="80">
+                </a>
+        
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link header-text" href="#quem-somos" id="quem_somos">QUEM SOMOS</a></li>
+                        <li class="nav-item"><a class="nav-link header-text" href="#parceiros-section" id="parceiros">PARCEIROS</a></li>
+                        <li class="nav-item"><a class="nav-link header-text" href="#reuniao2" id="reuniao">AGENDAR REUNIÃO</a></li>
+                        <li class="nav-item"><a class="nav-link header-text" href="#faqs2" id="faqs">FAQ's</a></li>
+                    </ul>
+                </div>
+                <div class="ml-auto">
+                    <a href=""  class="language-icon" title="Português" onclick="changeLanguage('pt')">
+                        <img src="./Fotos/portugal.png" alt="Português" height="30">
+                    </a>
+                    <a href="" class="language-icon" title="English" onclick="changeLanguage('en')">
+                        <img src="./Fotos/reino-unido.png" alt="English" height="30">
+                    </a>
+                </div>
+            </div>
+        </nav>            
+    </section>
+
+
+    <!-- Banner -->
+    <section id="banner-image" class="text-center">
+        <div id="div-logo">
+            <img id="small-image" src="./Fotos/imagem-acima-banner.png" alt="Imagem Pequena no Canto">
+            <div class="small-text" id="slogan">
+                Levamos a sua marca ao <br>
+                próximo nível digital
+            </div>
+        </div>
+        <img id="site-image" src="./Fotos/wedding.png" alt="Imagem Pequena no Canto">
+        <img id="background-image" src="./Fotos/imagem-header2.svg" alt="Imagem de fundo" class="img-fluid w-100">
+    </section>
+    
+
+    <!-- Quem somos -->
+    <section id="quem-somos">
+        
+        <div class="heading-topic-quemsomos">
+            <h1 id="quem_somos_titulo">QUEM SOMOS</h1>
+        </div>
+
+        <div class="company-story">
+            <div class="text-section">
+                <h1 id="historia_titulo">A Pixel Web</h1>
+                <p id="historia_texto">A Pixel Web nasceu do sonho de dois jovens apaixonados por tecnologia e inovação. Enquanto estudavam Engenharia Informática, Ricardo Domingues e João Canais perceberam que o mundo digital estava em constante evolução e que muitas empresas precisavam de ajuda para acompanhar esse ritmo. Combinando o conhecimento adquirido nos estudos com a vontade de criarem algo próprio, decidiram lançar a Pixel Web.</p>
+            </p>
+            </div>
+            
+            <div class="image-section">
+                <img src="./Fotos/ricardo.jpeg" alt="Person 1" class="image up">
+                <img src="./Fotos/canais.jpeg" alt="Person 2" class="image down">
+            </div>
+
+            
+        </div>
+
+        <div class="product-menu">
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="./Fotos/solucoes.png" alt="Product 1" class="product-image">
+                    <h2 id="solucoesTitle">Soluções personalizadas e Funcionais</h2>
+                    <p id="solucoes_texto">Desenvolvemos um site à sua medida, funcional e visualmente atraente.</p>
+                </div>
+                <div class="product-card">
+                    <img src="./Fotos/suporte.png" alt="Product 2" class="product-image">
+                    <h2 id="suporte_titulo">Suporte Técnico e Manutenção</h2>
+                    <p id="suporte_texto">Oferecemos um suporte pós-lançamento ajudando com problemas técnicos, atualizações e correções.</p>
+                </div>
+                <div class="product-card">
+                    <img src="./Fotos/acesibilidade.png" alt="Product 3" class="product-image">
+                    <h2 id="acesibilidade_titulo">Acessibilidade</h2>
+                    <p id="acesibilidade_texto">Desenvolvemos um site optimizado para motores de busca, com o objetivo de aumentar a visibilidade online e impulsionar o tráfego orgânico.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Parceiros-->
+    <section id="parceiros-section">
+        <div class="heading-topic-parceiros">
+            <h1 id="parceiros_titulo">PARCEIROS</h1>
+        </div>
+        <div class="partners-container " id="parceiros">    
+            <!-- Primeiro Parceiro -->
+            <div class="partner">
+                <a href="https://www.all4gest.pt" target="_blank" >
+                    <img src="./Fotos/all4guest.png" alt="Parceiro Exemplo" class="partner-logo" >
+                </a>
+            </div>
+    
+            <!-- Novo Parceiro -->
+            <div class="partner">
+                <a href="https://www.instagram.com/sao_gomes/" target="_blank">
+                    <img src="./Fotos/apresentação logo e foto_redondo.png" alt="Novo Parceiro" class="partner-logo">
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="reuniao2">
+        <div class="heading-topic-reuniao">
+            <h1 id="agendar_titulo">AGENDAR REUNIÃO</h1>
+        </div>
+    
+        <div class="container_forms">
+            <div class="contact-form">
+                <h2 id="contact"></h2>
+                <p class="text-reuniao">
+                    <span id="texto">Pronto para fazer o seu negócio crescer?<br></span>
+                    <span id="texto2">Preencha o formulário e deixe-nos ajudá-lo a destacar-se no mundo digital! Na nossa agência, especializamo-nos na criação de sites que aumentam a sua visibilidade online e atraem clientes qualificados. Dê o primeiro passo para o sucesso digital connosco!<br></span>
+                    <strong id="texto_strong">Contacte-nos e comece a sua jornada para um site de excelência!</strong>
+                </p>
+    
+                <form class="mt-4" action="https://formsubmit.co/pixel.webdesign.company@gmail.com" method="post">
+                    <div class="form-group">
+                        <input type="text" placeholder="Nome" id="nome_form_placeholder_name" required>
+                    </div>
+    
+                    <div class="form-group input-group">
+                        <input type="email" placeholder="Email" name="email" required>
+                        <input type="text" placeholder="Telefone" name="phone"  id="telefone_form_placeholder_name" required>
+                    </div>
+    
+                    <div class="form-group">
+                        <input type="text" placeholder="Assunto" id="contact_form_placeholder_subject" name="subject" required>
+                    </div>
+    
+                    <div class="form-group">
+                        <textarea placeholder="Descreva-nos o seu projeto" id="contact_form_placeholder_message" name="message" required></textarea>
+                    </div>
+    
+                    <button type="submit" id="button_submit">ENVIAR</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+  
+
+    <!--FAQS-->
+    <section id="faqs2"> 
+        <div class="heading-topic-faqs">
+            <h1>FAQ's</h1>
+        </div>
+    
+        <div class="faq-container"id="faqs">
+            
+            <div class="faq">
+                <div class="faq-question">
+                    <h3 id="faq1">Quais serviços a Pixel Web oferece?</h3>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p id="faq1_resposta">Oferecemos uma gama completa de serviços, incluindo:
+                    <p id="faq1_resposta2">
+                    Criação e desenvolvimento de websites;
+                    Design flexível;
+                    Optimização para motores de busca;
+                    Manutenção e atualizações de websites;
+                    Hospedagem e suporte técnico.</p></p>
+                </div>
+            </div>
+    
+            <div class="faq">
+                <div class="faq-question">
+                    <h3 id="faq2">Quanto tempo demora a desenvolver um website?</h3>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p id="faq2_resposta">O tempo de desenvolvimento depende da complexidade do projeto e dos requisitos específicos. Um website simples pode demorar cerca de 2 a 4 semanas, enquanto projetos mais complexos podem levar 1 a 2 meses. A nossa equipa trabalha de perto com cada cliente para definir prazos realistas e garantir a entrega dentro do prazo acordado.</p>
+                </div>
+            </div>
+        
+            <div class="faq">
+                <div class="faq-question">
+                    <h3 id="faq3">O website será optimizado para dispositivos móveis?</h3>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p id="faq3_resposta">Sim, todos os websites que desenvolvemos são 100% adaptados para funcionar em todos os dispositivos, desde computadores a smartphones e tablets. Garantimos que o seu website oferece uma excelente experiência de utilização em qualquer plataforma.</p>
+                </div>
+            </div>
+        
+            <div class="faq">
+                <div class="faq-question">
+                    <h3 id="faq4">Como posso acompanhar o progresso do meu projeto?</h3>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p id="faq4_resposta">Durante todo o desenvolvimento, mantemos-lo atualizado através de reuniões regulares e compartilhamento de previews. Dessa forma, pode acompanhar o progresso e dar seu feedback a qualquer momento.</p>
+                </div>
+            </div>
+    
+            
+        </div>
+    </section>
+
+    
+
+    <!--Footer-->
+
+    <section id="footer">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+            <div class="logotipo-footer col-md-4 d-flex align-items-center">
+                <a href="./index.html" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                    <img src="./Fotos/imagem-acima-banner.png" alt="Logotipo" height="215">
+                </a>
+            </div>
+
+            
+            <div class="privacy-policy-container">
+                <a href="./Politica/politica.html" class="privacy-policy"  id="politica">Política de Privacidade</a>
+            </div>
+
+            <ul class="logos nav col-md-3 justify-content-end list-unstyled d-flex align-items-center">
+                <li class="ms-3 d-flex align-items-center logo-rs">
+                    <a href="https://www.linkedin.com/in/pixel-web-094b05334/">
+                        <img src="./Fotos/linkedin.png" alt="LinkedIn" height="50">
+                    </a>
+                </li>
+                <li class="ms-3 d-flex align-items-center logo-rs">
+                    <a href="https://www.instagram.com/pixel_webdev">
+                        <img src="./Fotos/instagram.png" alt="Instagram" height="30">
+                    </a>
+                </li>
+                <li class="ms-3 d-flex align-items-center logo-rs whatsapp">
+                    <a href="https://wa.me/915417824">
+                        <img src="./Fotos/whatsapp.png" alt="WhatsApp" height="30">
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </section>
+
+
+    <script src="script.js"></script>
+
+    <script>
+    const faqs = document.querySelectorAll('.faq');
+
+    faqs.forEach(faq => {
+        faq.addEventListener('click', () => {
+            faq.classList.toggle('active');
+        });
+    });
+    </script>
+
+
+    <script>
+        window.onscroll = function() {
+        const header = document.getElementById('header'); // Captura o header
+        const logo = document.getElementById('logo-img'); // Captura o logo pelo ID
+        if (window.scrollY > 20) {
+            header.classList.add('scrolled-header'); // Adiciona a classe para mudar a cor para branco com opacidade
+            logo.src = "./Fotos/logo-header4.png"; // Troca o logo para o novo
+        } else {
+            header.classList.remove('scrolled-header'); // Remove a classe, voltando para a cor transparente
+            logo.src = './Fotos/logo5.png'; // Volta para o logo original
+        }
+    };
+
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous">
+    </script>
+
+   
+        
+</body>
+</html>   
